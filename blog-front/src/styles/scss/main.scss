@@ -1,0 +1,41 @@
+@import "./reset.scss";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,400,500,700,900|Source+Sans+Pro:300,400,700,900&display=swap');
+@import "./nav.scss";
+@import "./variables.scss";
+@import "./responsive.scss";
+@import "./buttons";
+@import "./header";
+@import "./footer";
+@import "./grid-articles";
+@import "./articles";
+@import "./form";
+@import "./drop-menu";
+@import "./article";
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.app-container {
+  width: 100%;
+  
+}
+
+.big-cta-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 3rem;
+  background: $green;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.videos-page{
+  min-height: 100vh;
+}

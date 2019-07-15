@@ -1,0 +1,45 @@
+.grid-articles-container {
+padding: 0 2rem;
+}
+
+.grid-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2.8rem;
+  grid-row-gap: 2rem;
+}
+// .card {
+//   height: 300px;
+//   // width: 100%;
+//   background: $green;
+// }
+
+.article-card-container{
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  border-radius: .6rem;
+  box-shadow: 0 20px 20px rgba(0,0,0,.08);
+  transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+  padding: 1rem;
+  &:hover{
+    box-shadow: 0 40px 40px rgba(0,0,0,.16);
+    transform: translate(0,-15px);
+  }
+}
+
+.card-infos{
+  color: white;
+
+  .card-title{
+    font-size: 1.2rem;
+  }
+  .card-city{
+
+  }
+ 
+}

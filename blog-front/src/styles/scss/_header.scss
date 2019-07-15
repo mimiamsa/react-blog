@@ -1,0 +1,67 @@
+
+.header {
+  position: relative;
+
+}
+
+.header-title-container {
+  z-index: 1;
+  width: 60%;
+  .header-over-title {
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-size: .7rem;
+    margin-left: .2rem;
+    color: $green;
+  }
+  .header-title {
+    z-index: 1;
+    color: $grey;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: .6rem;
+  }
+}
+
+.page-title-container {
+  display: flex;
+  padding: 2rem 2rem 2rem 2rem ;
+  flex-direction: column;
+  .page-title {
+    color: $grey;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 60%;
+  }
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+
+  .video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+    width: 100%;
+    // min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+}
+
+.video-overflow {
+  background: rgba(0, 0, 0, 0.3);
+  position: relative
+}
+
+.header-title {
+  position: relative;
+}

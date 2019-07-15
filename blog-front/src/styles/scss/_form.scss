@@ -1,0 +1,26 @@
+//input search bar
+
+
+.search-bar {
+  width: 25%;
+
+  input.search {
+    width: 100%;
+    padding: .7rem;
+    background: none;
+    border: none;
+    border-bottom: 2px solid $lightGrey;
+    font-size: .9rem;
+    color: white;
+
+    &:focus {
+      border-bottom: 2px solid white;
+      outline: none;
+    }
+
+    &::placeholder {
+      color: $lightGrey;
+      font-family: "Source Sans Pro", sans-serif;
+    }
+  }
+}

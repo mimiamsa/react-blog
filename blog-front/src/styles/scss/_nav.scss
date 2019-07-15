@@ -1,0 +1,70 @@
+@import "./variables.scss";
+
+.nav-bar {
+  position: relative;
+  width: 100%;
+  padding: .35rem 2rem .5rem 2rem;
+  border-bottom: 1px solid $lightGrey;
+  background: white;
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+
+  .is-active {
+    color: $lightBlack;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 900;
+  margin-right: 2.3rem;
+
+  &:hover {
+    color: $lightBlack;
+  }
+}
+
+.nav-side {
+  display: flex;
+  align-items: baseline;
+}
+
+.nav-item {
+  font-size: .9rem;
+  margin-right: .9rem;
+  color: $mediumGrey;
+  transition: color .2s ease-in;
+
+  &:hover {
+    color: $lightBlack;
+  }
+}
+
+//drop menu
+
+.drop-menu-container {
+  position: absolute;
+  background: white;
+  top: 45px;
+  right: 2rem;
+  width: 200px;
+  height: 100px;
+  border-radius: .3rem;
+  transition: visibility .2s ease-in;
+  visibility: hidden;
+  // border: 1px solid $lightGrey;
+  z-index: 1;
+  &:hover{
+    visibility: visible;
+  }
+}
+
+.nav-item-link {
+
+
+}
