@@ -23,9 +23,9 @@ A /
 
 B /
 - Finally : the users can signin/loggin-in
-- - simple logged-users can add an article to their favorites and view them in their account
-- - admin user can CRUD
-- - users can loggout
+- simple logged-users can add an article to their favorites and view them in their account
+- admin user can CRUD
+- users can loggout
 
 # Features
 ------------------------------------------------------------
