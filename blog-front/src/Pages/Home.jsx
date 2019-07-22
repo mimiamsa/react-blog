@@ -8,7 +8,7 @@ import PageTitle from './../Components/PageTitle';
 export default class Home extends Component {
   render() {
     return (
-      <div className="wrapper">
+      <div className="wrapper home-wrapper">
         <PageTitle 
         title="Browse through my articles and learn about my adventure" 
         subTitle=" Etiam eu blandit lorem. Morbi consequat eu quam in tempus. 

@@ -10,9 +10,9 @@ import VideosPage from './Pages/VideosPage';
 import { Switch, Route, Redirect } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons';
-import { faUserCircle, faMapMarkerAlt, faSearch, faComment, faHeart, faAngleRight, faChevronRight} from '@fortawesome/free-solid-svg-icons';
+import { faUserCircle, faMapMarkerAlt, faSearch, faComment, faHeart, faAngleRight, faChevronRight, faEllipsisV} from '@fortawesome/free-solid-svg-icons';
 // import { faHeart } from '@fortawesome/free-regular-svg-icons';
-library.add(faUserCircle, faHeart, faMapMarkerAlt, faLinkedin, faTwitter, faSearch, faComment, faAngleRight, faChevronRight)
+library.add(faUserCircle, faHeart, faMapMarkerAlt, faLinkedin, faTwitter, faSearch, faComment, faAngleRight, faChevronRight, faEllipsisV)
 
 
 function App() {
